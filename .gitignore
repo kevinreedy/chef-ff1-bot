@@ -43,3 +43,4 @@ build/
 update-local.sh
 redis.sh
 Dockerfile
+results/
