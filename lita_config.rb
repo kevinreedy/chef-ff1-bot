@@ -1,6 +1,6 @@
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = 'chef-ff3-bot'
+  config.robot.name = 'chef-ff1-bot'
 
   # The locale code for the language to use.
   # config.robot.locale = :en
@@ -17,6 +17,6 @@ Lita.configure do |config|
 
   config.handlers.espn_fantasy_football.league_id = ENV['ESPN_LEAGUE_ID']
   config.handlers.espn_fantasy_football.season_id = '2017'
-  config.handlers.espn_fantasy_football.activity_room = 'chef-ff-3'
+  config.handlers.espn_fantasy_football.activity_room = 'fantasy-football-1'
   config.handlers.espn_fantasy_football.activity_interval = 900
 end

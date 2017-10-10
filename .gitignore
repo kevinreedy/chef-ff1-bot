@@ -42,3 +42,4 @@ build/
 /data/appendonly.aof
 update-local.sh
 redis.sh
+Dockerfile
